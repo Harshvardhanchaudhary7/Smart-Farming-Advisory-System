@@ -1,0 +1,14 @@
+# Backend
+Server/node_modules/
+Server/.env
+Server/uploads/
+
+# Frontend
+User/node_modules/
+User/dist/
+
+# Logs
+*.log
+
+# OS / Editor
+.vscode/

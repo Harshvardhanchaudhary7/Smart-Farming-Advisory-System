@@ -1,0 +1,317 @@
+{
+  "appName": "Smart Farming",
+  "dashboard": "Dashboard",
+  "weather": "Weather",
+  "alerts": "Alerts",
+  "cropAdvisory": "Crop Advisory",
+  "profile": "Profile",
+  "settings": "Settings",
+  "cropHistory": "Crop History",
+  "logout": "Logout",
+  "millimeter": "mm",
+
+  "welcomeBack": "Welcome Back",
+  "goodMorning": "Good Morning",
+  "goodAfternoon": "Good Afternoon",
+  "goodEvening": "Good Evening",
+  "goodNight": "Good Night",
+
+  "saveChanges": "Save Changes",
+
+  "notificationPreferences": "Notification Preferences",
+
+  "languageSettings": "Language Settings",
+
+  "security"  : "Security",
+  "editProfile": "Edit Profile",
+  "updateProfile": "Update personal and farm details",
+
+  "changePassword": "Change Password",
+  "updatePassword": "Update your account password",
+
+  "heavyRain": "Heavy Rain Alerts",
+  "highTemperature": "High Temperature Alerts",
+  "cropNotification": "Crop Advisory Notifications",
+
+  "reports": "Reports",
+
+  "downloadCropReport": "Download AI Crop Report",
+  "downloadWeatherReport": "Download Weather Report",
+  "downloadHistoryPDF": "Download Crop History PDF",
+
+  "dangerZone": "Danger Zone",
+
+  "logoutMessage": "Logging out will end your current session.",
+
+  "memberSince": "Member Since",
+
+  "newMember": "New Member",
+
+  "farmerId": "Farmer ID",
+
+  "weatherAlerts": "Weather Alerts",
+  "totalAlerts": "Total Alerts",
+  "activeAlerts": "Active Alerts",
+  "noWeatherAlerts": "No Weather Alerts",
+  "safeWeather": "Current weather conditions are safe for farming.",
+  "recommendedAction": "Recommended Action",
+  
+  "active": "Active",
+  "warning": "Warning",
+
+  "heavyRainAlert":"Heavy Rain Alert",
+"heavyRainDescription":"Heavy rainfall is expected today. Avoid irrigation and protect crops.",
+"heavyRainAction":"Avoid irrigation today and protect crops from waterlogging.",
+
+"highTemperatureAlert":"High Temperature Alert",
+"highTemperatureDescription":"Very high temperature may affect crops.",
+"highTemperatureAction":"Water crops during early morning or evening.",
+
+"strongWindAlert":"Strong Wind Alert",
+"strongWindDescription":"Strong winds may damage crops.",
+"strongWindAction":"Avoid pesticide spraying and support weak plants.",
+
+"highHumidityAlert":"High Humidity Alert",
+"highHumidityDescription":"High humidity increases fungal disease risk.",
+"highHumidityAction":"Monitor crops regularly and apply fungicide if necessary.",
+
+"todaySummary": "Today's Farming Summary",
+"weatherStatus": "Weather Status",
+"irrigation": "Irrigation",
+"diseaseRisk": "Disease Risk",
+"cropCondition": "Crop Condition",
+"aiRecommendation": "AI Recommendation",
+
+"available": "Available",
+
+"weatherSuitable": "Weather is suitable for farming",
+
+"updated": "Updated",
+
+"temperature": "Temperature",
+"humidity": "Humidity",
+"rainfall": "Rainfall",
+"wind": "Wind",
+
+"good": "Good",
+"hot": "Hot",
+
+"healthy": "Healthy",
+"needsAttention": "Needs Attention",
+
+"high": "High",
+"moderate": "Moderate",
+"low": "Low",
+
+"requiredToday": "Required Today",
+"notRequired": "Not Required",
+
+"quickActions": "Quick Actions",
+
+"weatherForecast": "Weather Forecast",
+
+"welcomeFarmer": "Welcome, Farmer!",
+
+
+  "heavyRainExpected": "Heavy Rain Expected",
+"heavyRainAdvice": "Heavy rainfall is expected today.",
+"heavyRainAction2": "Avoid irrigation and protect crops from waterlogging.",
+
+"highTemperatureTitle": "High Temperature",
+"highTemperatureAdvice": "Very hot weather may stress crops.",
+"highTemperatureAction2": "Irrigate crops early morning or evening.",
+
+"strongWindTitle": "Strong Wind Alert",
+"strongWindAdvice": "Strong winds may damage crops.",
+"strongWindAction2": "Avoid spraying pesticides and secure equipment.",
+
+"highHumidityTitle": "High Humidity",
+"highHumidityAdvice": "High humidity increases fungal disease risk.",
+"highHumidityAction2": "Monitor crops and improve field ventilation.",
+
+"dryWeatherTitle": "Dry Weather",
+"dryWeatherAdvice": "Low humidity can dry out the soil quickly.",
+"dryWeatherAction2": "Increase irrigation frequency.",
+
+"goodWeatherTitle": "Good Farming Weather",
+"goodWeatherAdvice": "Current weather is suitable for normal farming activities.",
+"goodWeatherAction2": "Continue regular irrigation and crop monitoring.",
+
+"search": "Search",
+"searchCity": "Search City, Country...",
+"loading": "Loading...",
+"today": "Today",
+"sunrise": "Sunrise",
+"sunset": "Sunset",
+"fiveDayForecast": "5 Days Forecast",
+"hourlyForecast": "Hourly Forecast",
+
+"cityNotFound": "City not found.",
+"locationDenied": "Location permission denied.",
+"geolocationNotSupported": "Geolocation is not supported.",
+
+"loadingProfile": "Loading Profile...",
+"verifiedFarmer": "Verified Farmer",
+
+"totalLand": "Total Land",
+"activeCrops": "Active Crops",
+"yieldRate": "Yield Rate",
+
+"personalInformation": "Personal Information",
+"farmInformation": "Farm Information",
+
+"phoneNumber": "Phone Number",
+"location": "Location",
+"farmName": "Farm Name",
+"landSize": "Land Size",
+"soilType": "Soil Type",
+"crops": "Crops",
+
+"changeBanner": "Change Banner",
+"removeBanner": "Remove Banner",
+
+"changePhoto": "Change Photo",
+"removePhoto": "Remove Photo",
+
+"profileUpdated": "Profile Updated Successfully",
+
+"cancel": "Cancel",
+
+"footerDescription": "AI powered farming advisory system providing weather insights and crop recommendations.",
+
+"quickLinks": "Quick Links",
+
+"home": "Home",
+
+"resources": "Resources",
+
+"helpCenter": "Help Center",
+
+"privacyPolicy": "Privacy Policy",
+
+"termsConditions": "Terms & Conditions",
+
+"support": "Support",
+
+"contact": "Contact",
+
+"allRightsReserved": "All Rights Reserved.",
+
+
+"manageAccount":"Manage your account and application preferences.",
+
+"history":"History",
+
+"viewCropHistory":"View Crop History",
+
+"viewPreviousRecommendations":"View all previous AI crop recommendations.",
+
+"downloadCropFailed":"Failed to download crop report.",
+
+"downloadWeatherFailed":"Failed to download weather report.",
+
+"downloadHistoryFailed":"Failed to download PDF.",
+
+"settingsSaved":"Settings saved successfully!",
+
+"settingsFailed":"Failed to save settings.",
+
+"english":"English",
+
+"hindi":"Hindi",
+
+"searchCrop":"Search by crop...",
+
+"allHistory":"All History",
+
+"last7Days":"Last 7 Days",
+
+"last30Days":"Last 30 Days",
+
+"noCropHistory":"No Crop History Found",
+
+"summary":"Summary",
+
+"generateRecommendation":"Generate an AI recommendation to start building your history.",
+
+"deleteHistoryConfirm":"Are you sure you want to delete this history?",
+
+"deleteHistoryFailed":"Failed to delete history.",
+
+ "loamySoil": "Loamy Soil",
+  "claySoil": "Clay Soil",
+  "sandySoil": "Sandy Soil",
+  "blackSoil": "Black Soil",
+
+"summer":"Summer",
+"winter":"Winter",
+"monsoon":"Monsoon",
+"spring":"Spring",
+"autumn":"Autumn",
+
+"cropAdvisorySystem":"Crop Advisory System",
+"cropAdvisoryDescription":"AI-powered crop recommendations based on weather and soil conditions",
+
+"enterFarmDetails":"Enter Farm Details",
+
+"currentCrop":"Current Crop",
+
+"farmSize":"Farm Size (Acres)",
+
+"getRecommendation":"Get AI Recommendation",
+
+"generatingAdvice":"Generating AI Advice...",
+
+"generateAgain":"Generate Again",
+
+"generateNewAdvice":"Generate New Advice",
+
+"fillForm":"Fill the form and click Get AI Recommendation.",
+
+"recommendedCrop":"Recommended Crop",
+
+"fertilizer":"Fertilizer",
+
+"expectedYield":"Expected Yield",
+
+"recommendedActions":"Recommended Actions",
+
+"weatherUnavailable":"Weather data not available.",
+
+"login": "Login",
+"getStarted": "Get Started",
+"homeTitle": "Smart Farming Advisory System",
+"homeDescription": "AI Powered Farming Solution providing weather updates, crop recommendations and real-time farming alerts.",
+
+"createAccount": "Create Account",
+"fullName": "Full Name",
+"email": "Email",
+"password": "Password",
+"confirmPassword": "Confirm Password",
+"alreadyHaveAccount": "Already have an account?",
+"registrationSuccess": "Registration Successful",
+"registrationFailed": "Registration Failed",
+"passwordNotMatch": "Passwords do not match",
+"joinSmartFarming": "Join Smart Farming",
+"advisorySystem": "Advisory System",
+"startJourney": "Start Your Smart Farming Journey",
+
+"register": "Register",
+"loginToAccount": "Login to your account",
+"rememberMe": "Remember Me",
+"forgotPassword": "Forgot Password?",
+"dontHaveAccount": "Don't have an account?",
+"loginSuccess": "Login Successful",
+"loginFailed": "Login Failed",
+"empoweringFarmers": "Empowering Farmers with Smart Insights",
+
+"newPassword":"New Password",
+"resetPassword":"Reset Password",
+"backToLogin":"Back to Login",
+"passwordResetFailed":"Password Reset Failed",
+
+"delete":"Delete"
+
+
+
+}

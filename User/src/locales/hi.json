@@ -1,0 +1,342 @@
+{
+   "appName": "स्मार्ट खेती",
+  "dashboard": "डैशबोर्ड",
+  "weather": "मौसम",
+  "alerts": "अलर्ट",
+  "cropAdvisory": "फसल सलाह",
+  "profile": "प्रोफाइल",
+  "settings": "सेटिंग्स",
+  "cropHistory": "फसल इतिहास",
+   "logout": "लॉगआउट",
+   "millimeter": "मिमी",
+
+  "welcomeBack": "वापसी पर स्वागत है",
+
+  "goodMorning": "सुप्रभात",
+
+  "goodAfternoon": "नमस्कार",
+
+  "goodEvening": "शुभ संध्या",
+
+  "goodNight": "शुभ रात्रि",
+
+  "saveChanges": "परिवर्तन सहेजें",
+
+  "notificationPreferences": "सूचना प्राथमिकताएँ",
+
+  "languageSettings": "भाषा सेटिंग्स",
+
+
+  "security": "सुरक्षा",
+
+  "editProfile": "प्रोफ़ाइल संपादित करें",
+
+  "updateProfile": "व्यक्तिगत एवं खेत की जानकारी अपडेट करें",
+
+  "changePassword": "पासवर्ड बदलें",
+
+  "updatePassword": "अपने खाते का पासवर्ड अपडेट करें",
+
+  "heavyRain": "भारी वर्षा अलर्ट",
+
+  "highTemperature": "उच्च तापमान अलर्ट",
+
+  "cropNotification": "फसल सलाह सूचनाएँ",
+
+  "reports": "रिपोर्ट",
+
+  "downloadCropReport": "AI फसल रिपोर्ट डाउनलोड करें",
+
+  "downloadWeatherReport": "मौसम रिपोर्ट डाउनलोड करें",
+
+  "downloadHistoryPDF": "फसल इतिहास PDF डाउनलोड करें",
+
+  "dangerZone": "खतरे का क्षेत्र",
+
+  "logoutMessage": "लॉग आउट करने से आपका वर्तमान सत्र समाप्त हो जाएगा।",
+
+  "memberSince": "सदस्य बने",
+
+  "newMember": "नया सदस्य",
+
+  "farmerId": "किसान आईडी",
+
+  "weatherAlerts": "मौसम अलर्ट",
+  "totalAlerts": "कुल अलर्ट",
+  "activeAlerts": "सक्रिय अलर्ट",
+  "noWeatherAlerts": "कोई मौसम अलर्ट नहीं",
+  "safeWeather": "वर्तमान मौसम खेती के लिए सुरक्षित है।",
+  "recommendedAction": "अनुशंसित कार्य",
+  "active": "सक्रिय",
+  "warning": "चेतावनी", 
+
+
+  "heavyRainAlert": "भारी वर्षा चेतावनी",
+  "heavyRainDescription": "आज भारी वर्षा की संभावना है। सिंचाई से बचें और फसलों की सुरक्षा करें।",
+  "heavyRainAction": "आज सिंचाई न करें और जलभराव से फसलों की रक्षा करें।",
+
+  "highTemperatureAlert": "उच्च तापमान चेतावनी",
+  "highTemperatureDescription": "अत्यधिक तापमान फसलों को प्रभावित कर सकता है।",
+  "highTemperatureAction": "सुबह या शाम के समय सिंचाई करें।",
+
+  "strongWindAlert": "तेज़ हवा चेतावनी",
+  "strongWindDescription": "तेज़ हवा फसलों को नुकसान पहुँचा सकती है।",
+  "strongWindAction": "कीटनाशक का छिड़काव न करें और कमजोर पौधों को सहारा दें।",
+
+  "highHumidityAlert": "उच्च आर्द्रता चेतावनी",
+  "highHumidityDescription": "अधिक आर्द्रता से फफूंद रोग का खतरा बढ़ जाता है।",
+  "highHumidityAction": "फसलों की नियमित निगरानी करें और आवश्यकता होने पर फफूंदनाशक का प्रयोग करें।",
+
+"todaySummary": "आज की कृषि जानकारी",
+"weatherStatus": "मौसम की स्थिति",
+"irrigation": "सिंचाई",
+"diseaseRisk": "रोग का खतरा",
+"cropCondition": "फसल की स्थिति",
+
+"aiRecommendation": "एआई सलाह",
+
+"available": "उपलब्ध",
+
+"weatherSuitable": "मौसम खेती के लिए उपयुक्त है",
+
+"updated": "अपडेट",
+
+"temperature": "तापमान",
+
+"humidity": "आर्द्रता",
+
+"rainfall": "वर्षा",
+
+"wind": "हवा",
+
+"good": "अच्छा",
+
+"hot": "गर्म",
+
+"healthy": "स्वस्थ",
+
+"needsAttention": "ध्यान देने की आवश्यकता",
+
+"high": "उच्च",
+
+"moderate": "मध्यम",
+
+"low": "कम",
+
+"requiredToday": "आज सिंचाई आवश्यक है",
+
+"notRequired": "सिंचाई की आवश्यकता नहीं",
+
+"quickActions": "त्वरित कार्य",
+
+"weatherForecast": "मौसम पूर्वानुमान",
+
+"welcomeFarmer": "स्वागत है किसान!",
+
+"heavyRainExpected": "भारी वर्षा की संभावना",
+"heavyRainAdvice": "आज भारी वर्षा की संभावना है।",
+"heavyRainAction2": "सिंचाई से बचें और फसलों को जलभराव से सुरक्षित रखें।",
+
+"highTemperatureTitle": "उच्च तापमान",
+"highTemperatureAdvice": "अत्यधिक गर्म मौसम फसलों को प्रभावित कर सकता है।",
+"highTemperatureAction2": "सुबह या शाम के समय सिंचाई करें।",
+
+"strongWindTitle": "तेज़ हवा चेतावनी",
+"strongWindAdvice": "तेज़ हवाएँ फसलों को नुकसान पहुँचा सकती हैं।",
+"strongWindAction2": "कीटनाशकों का छिड़काव न करें और उपकरण सुरक्षित रखें।",
+
+"highHumidityTitle": "उच्च आर्द्रता",
+"highHumidityAdvice": "अधिक आर्द्रता से फफूंद रोग का खतरा बढ़ जाता है।",
+"highHumidityAction2": "फसलों की निगरानी करें और खेत में वायु संचार बनाए रखें।",
+
+"dryWeatherTitle": "शुष्क मौसम",
+"dryWeatherAdvice": "कम आर्द्रता मिट्टी को जल्दी सुखा सकती है।",
+"dryWeatherAction2": "सिंचाई की आवृत्ति बढ़ाएँ।",
+
+"goodWeatherTitle": "खेती के लिए अच्छा मौसम",
+"goodWeatherAdvice": "वर्तमान मौसम सामान्य खेती के लिए उपयुक्त है।",
+"goodWeatherAction2": "नियमित सिंचाई और फसल की निगरानी जारी रखें।",
+
+"fiveDayForecast": "5 दिन का पूर्वानुमान",
+"hourlyForecast": "घंटेवार पूर्वानुमान",
+
+"search": "खोजें",
+"searchCity": "शहर खोजें...",
+"loading": "लोड हो रहा है...",
+"today": "आज",
+"sunrise": "सूर्योदय",
+"sunset": "सूर्यास्त",
+
+"cityNotFound": "शहर नहीं मिला।",
+"locationDenied": "स्थान अनुमति अस्वीकार कर दी गई।",
+"geolocationNotSupported": "इस ब्राउज़र में स्थान सुविधा उपलब्ध नहीं है।",
+
+"loadingProfile": "प्रोफ़ाइल लोड हो रही है...",
+"verifiedFarmer": "सत्यापित किसान",
+
+"totalLand": "कुल भूमि",
+"activeCrops": "सक्रिय फसलें",
+"yieldRate": "उपज दर",
+
+"personalInformation": "व्यक्तिगत जानकारी",
+"farmInformation": "खेत की जानकारी",
+
+"phoneNumber": "फ़ोन नंबर",
+"location": "स्थान",
+"farmName": "खेत का नाम",
+"landSize": "भूमि का आकार",
+"soilType": "मिट्टी का प्रकार",
+"crops": "फसलें",
+
+"changeBanner": "बैनर बदलें",
+"removeBanner": "बैनर हटाएँ",
+
+"changePhoto": "फोटो बदलें",
+"removePhoto": "फोटो हटाएँ",
+
+"profileUpdated": "प्रोफ़ाइल सफलतापूर्वक अपडेट हो गई।",
+
+"cancel": "रद्द करें",
+
+"footerDescription": "एआई आधारित कृषि सलाह प्रणाली जो मौसम की जानकारी और फसल संबंधी सुझाव प्रदान करती है।",
+
+"quickLinks": "त्वरित लिंक",
+
+"home": "होम",
+
+"resources": "संसाधन",
+
+"helpCenter": "सहायता केंद्र",
+
+"privacyPolicy": "गोपनीयता नीति",
+
+"termsConditions": "नियम एवं शर्तें",
+
+"support": "सहायता",
+
+"contact": "संपर्क",
+
+"allRightsReserved": "सर्वाधिकार सुरक्षित।",
+
+
+"manageAccount":"अपने खाते और एप्लिकेशन की प्राथमिकताओं का प्रबंधन करें।",
+
+"history":"इतिहास",
+
+"viewCropHistory":"फसल इतिहास देखें",
+
+"viewPreviousRecommendations":"पिछली सभी एआई फसल सिफारिशें देखें।",
+
+"downloadCropFailed":"फसल रिपोर्ट डाउनलोड नहीं हो सकी।",
+
+"downloadWeatherFailed":"मौसम रिपोर्ट डाउनलोड नहीं हो सकी।",
+
+"downloadHistoryFailed":"पीडीएफ डाउनलोड नहीं हो सकी।",
+
+"settingsSaved":"सेटिंग्स सफलतापूर्वक सहेजी गईं।",
+
+"settingsFailed":"सेटिंग्स सहेजी नहीं जा सकीं।",
+
+"english":"English",
+
+"hindi":"हिन्दी",
+
+"searchCrop":"फसल खोजें...",
+
+"allHistory":"संपूर्ण इतिहास",
+
+"last7Days":"पिछले 7 दिन",
+
+"last30Days":"पिछले 30 दिन",
+
+"summary":"सारांश",
+
+"noCropHistory":"कोई फसल इतिहास उपलब्ध नहीं है",
+
+"generateRecommendation":"इतिहास बनाने के लिए पहले AI सलाह तैयार करें।",
+
+"deleteHistoryConfirm":"क्या आप वास्तव में इस इतिहास को हटाना चाहते हैं?",
+
+"deleteHistoryFailed":"इतिहास हटाया नहीं जा सका।",
+
+  "loamySoil": "दोमट मिट्टी",
+  "claySoil": "चिकनी मिट्टी",
+  "sandySoil": "रेतीली मिट्टी",
+  "blackSoil": "काली मिट्टी",  
+
+"summer":"गर्मी",
+
+"winter":"सर्दी",
+
+"monsoon":"मानसून",
+
+"spring":"वसंत",
+
+"autumn":"शरद",
+
+"cropAdvisorySystem":"फसल सलाह प्रणाली",
+
+"cropAdvisoryDescription":"मौसम और मिट्टी की स्थिति के आधार पर एआई द्वारा फसल संबंधी सुझाव।",
+
+"enterFarmDetails":"खेत की जानकारी दर्ज करें",
+
+"currentCrop":"वर्तमान फसल",
+
+"farmSize":"खेत का आकार (एकड़)",
+
+"getRecommendation":"एआई सलाह प्राप्त करें",
+
+"generatingAdvice":"एआई सलाह तैयार की जा रही है...",
+
+"generateAgain":"दोबारा तैयार करें",
+
+"generateNewAdvice":"नई सलाह प्राप्त करें",
+
+"fillForm":"फॉर्म भरें और एआई सलाह प्राप्त करें।",
+
+"recommendedCrop":"अनुशंसित फसल",
+
+"fertilizer":"उर्वरक",
+
+"expectedYield":"अपेक्षित उत्पादन",
+
+"recommendedActions":"अनुशंसित कार्य",
+
+"weatherUnavailable":"मौसम की जानकारी उपलब्ध नहीं है।",
+
+"login": "लॉगिन",
+"getStarted": "शुरू करें",
+"homeTitle": "स्मार्ट खेती सलाह प्रणाली",
+"homeDescription": "एआई आधारित खेती समाधान जो मौसम की जानकारी, फसल सिफारिशें और वास्तविक समय में खेती संबंधी अलर्ट प्रदान करता है।",
+
+"createAccount": "खाता बनाएँ",
+"fullName": "पूरा नाम",
+"email": "ईमेल",
+"password": "पासवर्ड",
+"confirmPassword": "पासवर्ड की पुष्टि करें",
+"alreadyHaveAccount": "क्या आपका पहले से खाता है?",
+"registrationSuccess": "पंजीकरण सफल हुआ",
+"registrationFailed": "पंजीकरण असफल रहा",
+"passwordNotMatch": "पासवर्ड मेल नहीं खाते",
+"joinSmartFarming": "स्मार्ट खेती से जुड़ें",
+"advisorySystem": "सलाह प्रणाली",
+"startJourney": "अपनी स्मार्ट खेती की यात्रा शुरू करें",
+
+
+"register": "पंजीकरण",
+"loginToAccount": "अपने खाते में लॉगिन करें",
+"rememberMe": "मुझे याद रखें",
+"forgotPassword": "पासवर्ड भूल गए?",
+"dontHaveAccount": "क्या आपका खाता नहीं है?",
+"loginSuccess": "लॉगिन सफल हुआ",
+"loginFailed": "लॉगिन असफल रहा",
+"empoweringFarmers": "स्मार्ट जानकारी के साथ किसानों को सशक्त बनाना",
+
+"newPassword":"नया पासवर्ड",
+"resetPassword":"पासवर्ड रीसेट करें",
+"backToLogin":"लॉगिन पर वापस जाएँ",
+"passwordResetFailed":"पासवर्ड रीसेट नहीं हो सका",
+
+"delete":"Delete"
+
+}
