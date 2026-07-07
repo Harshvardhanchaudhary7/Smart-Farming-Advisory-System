@@ -8,6 +8,7 @@ import { FaSearch, FaTrash } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import toast from "react-hot-toast";
 import ConfirmModal from "../Components/ConfirmModal";
+import API_URL from "../config";
 
 const CropHistory = () => {
    const { t } = useTranslation();
@@ -31,7 +32,7 @@ const [selectedHistoryId, setSelectedHistoryId] = useState(null);
     try {
       const token = localStorage.getItem("token");
       const res = await axios.get(
-        "http://localhost:5000/api/history",
+          `${API_URL}/api/history`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -84,7 +85,7 @@ const deleteHistory = async (id) => {
     const token = localStorage.getItem("token");
 
     await axios.delete(
-      `http://localhost:5000/api/history/${id}`,
+      `${API_URL}/api/history/${id}`,
       {
         headers: {
           Authorization: `Bearer ${token}`,

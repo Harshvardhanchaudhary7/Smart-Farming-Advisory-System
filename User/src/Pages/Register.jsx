@@ -9,6 +9,7 @@ import { useTranslation } from "react-i18next";
 import { FaUserPlus } from "react-icons/fa";
 import toast from "react-hot-toast";
 import { motion } from "framer-motion";
+import API_URL from "../config";
 
 const Register = () => {
 
@@ -28,7 +29,7 @@ const Register = () => {
      try {
 
     await axios.post(
-      "http://localhost:5000/api/auth/register",
+      `${API_URL}/api/auth/register`,
       {
         name,
         email,

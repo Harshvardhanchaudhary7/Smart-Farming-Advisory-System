@@ -4,6 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { FaLock, FaEye, FaEyeSlash } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import toast from "react-hot-toast";
+import API_URL from "../config";
 
 const ForgotPassword = () => {
 
@@ -31,7 +32,7 @@ const [showConfirmPassword, setShowConfirmPassword] = useState(false);
     try {
 
       const res = await axios.put(
-        "http://localhost:5000/api/auth/forgot-password",
+        `${API_URL}/api/auth/forgot-password`,
         {
           email,
           password,

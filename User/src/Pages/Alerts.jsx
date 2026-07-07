@@ -8,6 +8,7 @@ import { getWeatherAlerts } from "../utils/getWeatherAlerts";
 import { showNotification } from "../utils/notification";
 import axios from 'axios';
 import { useTranslation } from "react-i18next";
+import API_URL from "../config";
 
 const Alerts = () => {
 const { t } = useTranslation();
@@ -23,7 +24,7 @@ useEffect(() => {
       const token = localStorage.getItem("token");
 
       const res = await axios.get(
-        "http://localhost:5000/api/auth/profile",
+       `${API_URL}/api/auth/profile`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

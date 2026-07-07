@@ -11,6 +11,7 @@ import {showNotification} from "../utils/notification";
 import { getNotificationText } from "../utils/notificationText";
 import { useTranslation } from "react-i18next";
 import toast from "react-hot-toast";
+import API_URL from "../config";
 
 const CropAdvisory = () => {
   const { t } = useTranslation();
@@ -46,7 +47,7 @@ useEffect(() => {
       const token = localStorage.getItem("token");
 
       const res = await axios.get(
-        "http://localhost:5000/api/auth/profile",
+        `${API_URL}/api/auth/profile`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -89,7 +90,7 @@ const getAIRecommendation = async () => {
     setLoading(true);
 
  const res = await axios.post(
-  "http://localhost:5000/api/ai/recommend",
+ `${API_URL}/api/ai/recommend`,
   {
     crop,
     soil,
@@ -111,7 +112,7 @@ console.log("AI Response:", res.data);
   const token = localStorage.getItem("token");
 
 await axios.post(
-  "http://localhost:5000/api/history",
+  `${API_URL}/api/history`,
   {
     crop,
     soil,

@@ -7,6 +7,7 @@ import axios from "axios";
 import { FaUserEdit, FaLock, FaBell, FaLanguage, FaDownload, FaSignOutAlt, FaUser, FaHistory,} from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import toast from "react-hot-toast";
+import API_URL from "../config";
 
 
 const Settings = () => {
@@ -26,7 +27,7 @@ const Settings = () => {
       const token = localStorage.getItem("token");
 
       const res = await axios.get(
-        "http://localhost:5000/api/auth/profile",
+      `${API_URL}/api/auth/profile`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -67,7 +68,7 @@ const downloadHistoryPDF = async () => {
     const token = localStorage.getItem("token");
 
     const response = await axios.get(
-      "http://localhost:5000/api/history/download",
+      `${API_URL}/api/history/download`,
       {
         responseType: "blob",
         headers: {
@@ -107,7 +108,7 @@ const saveSettings = async () => {
     const token = localStorage.getItem("token");
 
     await axios.put(
-      "http://localhost:5000/api/auth/profile",
+      `${API_URL}/api/auth/profile`,
       notifications,
       {
         headers: {
@@ -157,7 +158,7 @@ const saveSettings = async () => {
             <div className="flex items-center gap-4">
              {user?.profileImage ? (
   <img
-    src={`http://localhost:5000${user.profileImage}`}
+   src={`${API_URL}${user.profileImage}`}
     alt="Profile"
     className="w-20 h-20 rounded-full object-cover border-4 border-green-500"/>
 ) : ( <div className="bg-green-100 p-4 rounded-full">
@@ -332,7 +333,7 @@ const saveSettings = async () => {
       const token = localStorage.getItem("token");
 
       await axios.put(
-        "http://localhost:5000/api/auth/profile",
+        `${API_URL}/api/auth/profile`,
         {
           language,
         },
@@ -384,7 +385,7 @@ const saveSettings = async () => {
     try {
       const token = localStorage.getItem("token");
       const response = await axios.get(
-        "http://localhost:5000/api/history/crop-report",
+        `${API_URL}/api/history/crop-report`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -415,7 +416,7 @@ const saveSettings = async () => {
     try {
       const token = localStorage.getItem("token");
       const response = await axios.get(
-        "http://localhost:5000/api/history/weather-report",
+        `${API_URL}/api/history/weather-report`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

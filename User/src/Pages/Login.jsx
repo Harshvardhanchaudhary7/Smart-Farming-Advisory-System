@@ -8,6 +8,7 @@ import { useTranslation } from "react-i18next";
 import loginImage from "../assets/loginImage.jpg";
 import toast from "react-hot-toast";
 import { motion } from "framer-motion";
+import API_URL from "../config";
 
 function Login() {
 
@@ -36,7 +37,7 @@ function Login() {
   const handleLogin = async () =>{
     try {
       const res = await axios.post(
-         "http://localhost:5000/api/auth/login",
+         `${API_URL}/api/auth/login`,
          {
           email,
           password,

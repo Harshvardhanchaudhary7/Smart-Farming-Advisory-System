@@ -16,6 +16,7 @@ import { useTranslation } from "react-i18next";
 import { translateWeather } from "../utils/weatherTranslation";
 import toast from "react-hot-toast";
 import { motion } from "framer-motion";
+import API_URL from "../config";
 
 const Dashboard = () => {
   const { t } = useTranslation();
@@ -34,7 +35,7 @@ const Dashboard = () => {
       const token = localStorage.getItem("token");
 
       const res = await axios.get(
-        "http://localhost:5000/api/auth/profile",
+       `${API_URL}/api/auth/profile`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -100,7 +101,7 @@ useEffect(() => {
 
     // Save the last notification in MongoDB
     await axios.put(
-      "http://localhost:5000/api/auth/profile",
+      `${API_URL}/api/auth/profile`,
       {
         lastNotificationType: alert.type,
         lastNotificationTime: new Date(),
@@ -181,7 +182,7 @@ const cropHealth =
   <img
   src={
   user?.profileImage
-    ? `http://localhost:5000${user.profileImage}`
+    ?`${API_URL}${user.profileImage}`
     : `https://ui-avatars.com/api/?name=${encodeURIComponent(
         user?.name || "Farmer"
       )}&background=16a34a&color=fff`

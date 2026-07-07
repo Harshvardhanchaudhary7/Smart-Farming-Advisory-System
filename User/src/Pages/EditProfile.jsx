@@ -9,6 +9,7 @@ import profile_1 from "../assets/profile_1.jpg";
 import { FaCamera, FaEdit,FaUser, FaImage } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import toast from "react-hot-toast";
+import API_URL from "../config";
 
 const EditProfile = () => {
 
@@ -41,7 +42,7 @@ useEffect(() => {
       const token = localStorage.getItem("token");
 
       const res = await axios.get(
-        "http://localhost:5000/api/auth/profile",
+         `${API_URL}/api/auth/profile`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -91,7 +92,7 @@ if (bannerFile) {
 }
 
    const res = await axios.put(
-      "http://localhost:5000/api/auth/profile",
+      `${API_URL}/api/auth/profile`,
       data,
       {
         headers: {
@@ -147,7 +148,7 @@ console.log(profileFile);
     src={
       bannerPreview
         ? bannerPreview
-        : `http://localhost:5000${formData.bannerImage}`
+        : `${API_URL}${formData.bannerImage}`
     }
     alt="Banner"
     className="w-full h-64 object-cover rounded-2xl"
@@ -240,7 +241,7 @@ console.log(profileFile);
     src={
       profilePreview
         ? profilePreview
-        : `http://localhost:5000${formData.profileImage}`
+        : `${API_URL}${formData.profileImage}`
     }
     alt="Profile"
     className="w-28 h-28 rounded-full object-cover border-4 border-white shadow-lg"

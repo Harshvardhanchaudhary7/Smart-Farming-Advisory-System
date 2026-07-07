@@ -8,6 +8,7 @@ import Footer from '../Components/Footer';
 import axios from 'axios';
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import API_URL from "../config";
 
 const Profile = () => {
     const { t } = useTranslation();
@@ -22,7 +23,7 @@ const Profile = () => {
       const token = localStorage.getItem("token");
 
       const res = await axios.get(
-         "http://localhost:5000/api/auth/profile",
+         `${API_URL}/api/auth/profile`,
          {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -65,7 +66,7 @@ if (!user) {
         
 {user?.bannerImage ? (
   <img
-    src={`http://localhost:5000${user.bannerImage}`}
+    src={`${API_URL}${user.bannerImage}`}
     alt="Banner"
     className="absolute inset-0 w-full h-full object-cover"
   />
@@ -81,7 +82,7 @@ if (!user) {
 
       {user?.profileImage ? (
   <img
-    src={`http://localhost:5000${user.profileImage}`}
+    src={`${API_URL}${user.profileImage}`}
     alt="Profile"
     className="w-24 h-24 md:w-28 md:h-28 rounded-full border-4 border-white object-cover"
   />

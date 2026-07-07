@@ -11,6 +11,7 @@ import { useWeather } from "../context/WeatherContext";
 import { useTranslation } from "react-i18next";
 import { translateWeather } from "../utils/weatherTranslation.js";
 import toast from "react-hot-toast";
+import API_URL from "../config";
 
 const Weather = () => {
   const { t } = useTranslation();
@@ -30,7 +31,7 @@ const fetchWeather = async () => {
     if (!city.trim()) return;
 
     const res = await axios.get(
-      `http://localhost:5000/api/weather?city=${city}`
+      `${API_URL}/api/weather?city=${city}`
     );
 
     setWeather(res.data);
@@ -63,7 +64,7 @@ const getCurrentLocation = () => {
       try {
 
         const res = await axios.get(
-          `http://localhost:5000/api/weather?city=${lat},${lon}`
+          `${API_URL}/api/weather?city=${lat},${lon}`
         );
 
         setWeather(res.data);

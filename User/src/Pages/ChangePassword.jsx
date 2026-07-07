@@ -4,6 +4,7 @@ import Sidebar from "../Components/Sidebar";
 import Navbar from "../Components/Navbar";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import toast from "react-hot-toast";
+import API_URL from "../config";
 
 const ChangePassword = () => {
 
@@ -33,7 +34,7 @@ const [showConfirm, setShowConfirm] = useState(false);
       const token = localStorage.getItem("token");
 
       const res = await axios.put(
-        "http://localhost:5000/api/auth/change-password",
+        `${API_URL}/api/auth/change-password`,
         {
           currentPassword,
           newPassword,
